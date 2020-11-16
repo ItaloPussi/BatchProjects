@@ -14,7 +14,7 @@ When you want to run it simply double click on the .bat file
 	- DEL;
 
 ## Disclaimer
-Please read our available disclaimer <a href="https://github.com/ItaloPussi/BatchProjects">here</a>!
+Please read our disclaimer <a href="https://github.com/ItaloPussi/BatchProjects">here</a>!
 
 ## Contributing
 Do you have an extension (.txt, .pdf, .xlsx etc) that you would like the program to support? Feel free to open an issue and we will update the program as soon as possible.
