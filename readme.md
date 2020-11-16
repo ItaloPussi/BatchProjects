@@ -1,4 +1,4 @@
-# Projetos Batch
+# Batch projects
 
 <a href="https://github.com/ItaloPussi/BatchProjects/blob/master/readme.pt.md">Versão em Português</a> 👈
 
