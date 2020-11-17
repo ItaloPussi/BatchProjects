@@ -1,20 +1,24 @@
-# Projetos Batch
+# Organizador
 
-<a href="https://github.com/ItaloPussi/BatchProjects/blob/master/readme.md">English version</a> 👈
+<a href="https://github.com/ItaloPussi/BatchProjects/tree/master/organizer/readme.md"> English Version</a> 👈
 
-No windows um dos maiores potenciais para automações internas são os famosos batch files.<br>
-Nesse repositório você irá encontrar alguns projetos escritos em batch. Periodicamente, pretendendo incrementá-lo com novos subdiretórios de acordo com a minha criatividade e conforme for praticando a linguagem.
+Quantas vezes você já se pegou com um monte de arquivos diferentes bagunçados pelo seu desktop ou dentro da sua pasta de downloads?
+Esse projeto vem para acabar com esse problema, com suporte atual a 35 tipos de extensões diferentes, toda vez que executa-lo ele organizará seus arquivos em pastas próprias.
+Finalmente dê um uso para as pastas documentos, imagens, videos e músicas.
 
-## Instalação
+## Uso
+Quando quiser executa-lo simplesmente dê dois cliques sobre o arquivo<br />
 
-Caso deseje testar alguma funcionalidade, basta clonar o diretório, acessar o subdiretório escolhido e iniciar o arquivo ```.bat```
+## Principais comandos abordados
+	- XCOPY;
+	- DEL;
+	- REM;
 
-## Aviso Legal
-Infelizmente o windows exibe uma mensagem de segurança padrão ao tentarmos iniciar qualquer arquivo .bat. Não posso retira-la mas garanto que os programas aqui contidos não são maliciosos.<br>
-Além disso, arquivos desse tipo só rodam em dispositivos que tenham windows instalado.
+## Aviso legal
+Por favor, leia nosso aviso disponível <a href="https://github.com/ItaloPussi/BatchProjects">aqui</a>!
 
 ## Contribuindo
-Caso queira sugerir algum projeto interessante para ser feito em batch, sinta-se livre para abrir uma issue. 
+Tem alguma extensão (.txt, .pdf, .xlsx etc) que gostaria suporte? Sinta-se livre para abrir uma issue que atualizaremos o programa o mais rápido possível.
 
 ## Licença
 [MIT](https://choosealicense.com/licenses/mit/)
