@@ -1,3 +1,9 @@
+rem EXE files, disabled. Remove rem on the lines below to activate
+rem xcopy /y %userprofile%\Desktop\*.exe %userprofile%\Documents\EXE\
+rem xcopy /y %userprofile%\Downloads\*.exe %userprofile%\Documents\EXE\
+rem del /q %userprofile%\Desktop\*.exe
+rem del /q %userprofile%\Downloads\*.exe
+
 rem PDF files
 xcopy /y %userprofile%\Desktop\*.pdf %userprofile%\Documents\PDFs\
 xcopy /y %userprofile%\Downloads\*.pdf %userprofile%\Documents\PDFs\
@@ -18,7 +24,7 @@ del /q %userprofile%\Downloads\*.rar
 del /q %userprofile%\Desktop\*.7z
 del /q %userprofile%\Downloads\*.7z
 
-rem XLSX, CDV  
+rem XLSX, CSV  
 xcopy /y %userprofile%\Desktop\*.xlsx %userprofile%\Documents\Spreadsheets\
 xcopy /y %userprofile%\Downloads\*.xlsx %userprofile%\Documents\Spreadsheets\
 xcopy /y %userprofile%\Desktop\*.csv %userprofile%\Documents\Spreadsheets\
@@ -34,19 +40,23 @@ xcopy /y %userprofile%\Downloads\*.txt %userprofile%\Documents\Txt\
 del /q %userprofile%\Desktop\*.txt
 del /q %userprofile%\Downloads\*.txt
 
-rem DOC, DOCX, PPTX
+rem DOC, DOCX, PPTX, PPT
 xcopy /y %userprofile%\Desktop\*.docx %userprofile%\Documents\Office\
 xcopy /y %userprofile%\Downloads\*.docx %userprofile%\Documents\Office\
 xcopy /y %userprofile%\Desktop\*.doc %userprofile%\Documents\Office\
 xcopy /y %userprofile%\Downloads\*.doc %userprofile%\Documents\Office\
 xcopy /y %userprofile%\Desktop\*.pptx %userprofile%\Documents\Office\
 xcopy /y %userprofile%\Downloads\*.pptx %userprofile%\Documents\Office\
+xcopy /y %userprofile%\Desktop\*.ppt %userprofile%\Documents\Office\
+xcopy /y %userprofile%\Downloads\*.ppt %userprofile%\Documents\Office\
 del /q %userprofile%\Desktop\*.docx
 del /q %userprofile%\Downloads\*.docx
 del /q %userprofile%\Desktop\*.doc
 del /q %userprofile%\Downloads\*.doc
 del /q %userprofile%\Desktop\*.pptx
 del /q %userprofile%\Downloads\*.pptx
+del /q %userprofile%\Desktop\*.ppt
+del /q %userprofile%\Downloads\*.ppt
 
 REM JPG, GIF, PNG, JPEG
 xcopy /y %userprofile%\Desktop\*.jpg %userprofile%\pictures\Pictures\
@@ -87,21 +97,45 @@ del /q %userprofile%\Desktop\*.torrent
 del /q %userprofile%\Downloads\*.torrent
 
 
-rem MP4, MKV
+rem MP4, MKV, AVI, MPEG
 xcopy /y %userprofile%\Desktop\*.mp4 %userprofile%\Videos\Videos\
 xcopy /y %userprofile%\Downloads\*.mp4 %userprofile%\Videos\Videos\
 xcopy /y %userprofile%\Desktop\*.mkv %userprofile%\Videos\Videos\
 xcopy /y %userprofile%\Downloads\*.mkv %userprofile%\Videos\Videos\
+xcopy /y %userprofile%\Desktop\*.avi %userprofile%\Videos\Videos\
+xcopy /y %userprofile%\Downloads\*.avi %userprofile%\Videos\Videos\
+xcopy /y %userprofile%\Desktop\*.mpeg %userprofile%\Videos\Videos\
+xcopy /y %userprofile%\Downloads\*.mpeg %userprofile%\Videos\Videos\
 del /q %userprofile%\Desktop\*.mp4
 del /q %userprofile%\Downloads\*.mp4
 del /q %userprofile%\Desktop\*.mkv
 del /q %userprofile%\Downloads\*.mkv
+del /q %userprofile%\Desktop\*.avi
+del /q %userprofile%\Downloads\*.avi
+del /q %userprofile%\Desktop\*.mpeg
+del /q %userprofile%\Downloads\*.mpeg
 
-rem MP3
+rem MP3, WWA, AAC, OGG, AC3
 xcopy /y %userprofile%\Desktop\*.mp3 %userprofile%\Music\Musics\
 xcopy /y %userprofile%\Downloads\*.mp3 %userprofile%\Music\Musics\
+xcopy /y %userprofile%\Desktop\*.wwa %userprofile%\Music\Musics\
+xcopy /y %userprofile%\Downloads\*.wwa %userprofile%\Music\Musics\
+xcopy /y %userprofile%\Desktop\*.aac %userprofile%\Music\Musics\
+xcopy /y %userprofile%\Downloads\*.aac %userprofile%\Music\Musics\
+xcopy /y %userprofile%\Desktop\*.ogg %userprofile%\Music\Musics\
+xcopy /y %userprofile%\Downloads\*.ogg %userprofile%\Music\Musics\
+xcopy /y %userprofile%\Desktop\*.ac3 %userprofile%\Music\Musics\
+xcopy /y %userprofile%\Downloads\*.ac3 %userprofile%\Music\Musics\
 del /q %userprofile%\Desktop\*.mp3
 del /q %userprofile%\Downloads\*.mp3
+del /q %userprofile%\Desktop\*.wwa
+del /q %userprofile%\Downloads\*.wwa
+del /q %userprofile%\Desktop\*.aac
+del /q %userprofile%\Downloads\*.aac
+del /q %userprofile%\Desktop\*.ogg
+del /q %userprofile%\Downloads\*.ogg
+del /q %userprofile%\Desktop\*.ac3
+del /q %userprofile%\Downloads\*.ac3
 
 rem PSD
 xcopy /y %userprofile%\Desktop\*.psd %userprofile%\Documents\Photoshop\
@@ -109,14 +143,34 @@ xcopy /y %userprofile%\Downloads\*.psd %userprofile%\Documents\Photoshop\
 del /q %userprofile%\Desktop\*.psd
 del /q %userprofile%\Downloads\*.psd
 
+@REM "Programming languages" related 
+
 REM HTML
-xcopy /y %userprofile%\Desktop\*.html %userprofile%\Documents\HTML\
-xcopy /y %userprofile%\Downloads\*.html %userprofile%\Documents\HTML\
+xcopy /y %userprofile%\Desktop\*.html %userprofile%\Documents\Programming-languages\HTML\
+xcopy /y %userprofile%\Downloads\*.html %userprofile%\Documents\Programming-languages\HTML\
 del /q %userprofile%\Desktop\*.html
 del /q %userprofile%\Downloads\*.html
 
+REM JS
+xcopy /y %userprofile%\Desktop\*.js %userprofile%\Documents\Programming-languages\Javascript\
+xcopy /y %userprofile%\Downloads\*.js %userprofile%\Documents\Programming-languages\Javascript\
+del /q %userprofile%\Desktop\*.js
+del /q %userprofile%\Downloads\*.js
+
+REM TS
+xcopy /y %userprofile%\Desktop\*.ts %userprofile%\Documents\Programming-languages\Typescript\
+xcopy /y %userprofile%\Downloads\*.ts %userprofile%\Documents\Programming-languages\Typescript\
+del /q %userprofile%\Desktop\*.ts
+del /q %userprofile%\Downloads\*.ts
+
+REM PHP
+xcopy /y %userprofile%\Desktop\*.php %userprofile%\Documents\Programming-languages\PHP\
+xcopy /y %userprofile%\Downloads\*.php %userprofile%\Documents\Programming-languages\PHP\
+del /q %userprofile%\Desktop\*.php
+del /q %userprofile%\Downloads\*.php
+
 REM PY
-xcopy /y %userprofile%\Desktop\*.py %userprofile%\Documents\Python\
-xcopy /y %userprofile%\Downloads\*.py %userprofile%\Documents\Python\
+xcopy /y %userprofile%\Desktop\*.py %userprofile%\Documents\Programming-languages\Python\
+xcopy /y %userprofile%\Downloads\*.py %userprofile%\Documents\Programming-languages\Python\
 del /q %userprofile%\Desktop\*.py
 del /q %userprofile%\Downloads\*.py
