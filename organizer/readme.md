@@ -3,7 +3,7 @@
 <a href="https://github.com/ItaloPussi/BatchProjects/tree/master/organizer/readme.md"> Versão em Português</a> 👈
 
 How many times have you found yourself with a bunch of different files messed up on your desktop or inside your downloads folder?
-This project comes to end this problem, with current support for 24 different types of extensions, every time you run it it will organize your files in its own folders.
+This project comes to end this problem, with current support for 35 different types of extensions, every time you run it it will organize your files in its own folders.
 Finally use the documents, images, videos and music folders.
 
 ## Use
@@ -12,6 +12,7 @@ When you want to run it simply double click on the .bat file
 ## Key commands learned
 	- XCOPY;
 	- DEL;
+	- REM;
 
 ## Disclaimer
 Please read our disclaimer <a href="https://github.com/ItaloPussi/BatchProjects">here</a>!
