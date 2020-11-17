@@ -11,6 +11,7 @@ Quando quiser executa-lo simplesmente dê dois cliques sobre o arquivo<br />
 ## Principais comandos abordados
 	- XCOPY;
 	- DEL;
+	- REM;
 
 ## Aviso legal
 Por favor, leia nosso aviso disponível <a href="https://github.com/ItaloPussi/BatchProjects">aqui</a>!
