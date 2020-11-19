@@ -3,7 +3,7 @@
 <a href="https://github.com/ItaloPussi/BatchProjects/tree/master/organizer/readme.pt.md"> Versão em Português</a> 👈
 
 How many times have you found yourself with a bunch of different files messed up on your desktop or inside your downloads folder?
-This project comes to end this problem, with current support for 35 different types of extensions, every time you run it it will organize your files in its own folders.
+This project comes to end this problem, with current support for 56 different types of extensions, every time you run it it will organize your files in its own folders.
 Finally use the documents, images, videos and music folders.
 
 ## Use

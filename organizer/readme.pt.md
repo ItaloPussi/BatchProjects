@@ -3,7 +3,7 @@
 <a href="https://github.com/ItaloPussi/BatchProjects/tree/master/organizer/readme.md"> English Version</a> 👈
 
 Quantas vezes você já se pegou com um monte de arquivos diferentes bagunçados pelo seu desktop ou dentro da sua pasta de downloads?
-Esse projeto vem para acabar com esse problema, com suporte atual a 35 tipos de extensões diferentes, toda vez que executa-lo ele organizará seus arquivos em pastas próprias.
+Esse projeto vem para acabar com esse problema, com suporte atual a 56 tipos de extensões diferentes, toda vez que executa-lo ele organizará seus arquivos em pastas próprias.
 Finalmente dê um uso para as pastas documentos, imagens, videos e músicas.
 ## Uso
 Quando quiser executa-lo simplesmente dê dois cliques sobre o arquivo<br />
