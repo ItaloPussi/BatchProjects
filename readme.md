@@ -5,7 +5,7 @@
 On windows one of the biggest potentials for internal automations is the famous batch files.<br>
 In this repository you will find some projects written in batch language. Periodically, I intend to increase it with new subdirectories according to my creativity and as I practice the language.
 
-## Instalation
+## Installation
 
 If you want to test some functionality, just clone the directory, access the chosen subdirectory and start the file ```.bat```
 
